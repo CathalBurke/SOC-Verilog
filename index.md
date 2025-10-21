@@ -15,7 +15,7 @@ Summarise the project set-up and design flow. Include a screenshot of your own s
 
 ## My Project Setup
 
-
+<img src="https://raw.githubusercontent.com/CathalBurke/SOC-Verilog/main/docs/assets/images/MyprojectSummary.png">
 
 <img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSum.png">
 ### **Template Code**
