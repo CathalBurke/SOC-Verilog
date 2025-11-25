@@ -4,24 +4,21 @@ title: FPGA VGA Driver Project
 tags: fpga vga verilog
 categories: demo
 ---
+## Introduction
 
-Add a short welcome message or introduction here. Aim to get the viewer interested in what follows! Guideline: 1 or 2 sentences. 
 
-I am adding a test sentence here at 13:24 on 03/12/24.
-
-## **Template VGA Design**
-### **Project Set-Up**
-Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
 
 ## My Project Setup
 
 <img src="https://raw.githubusercontent.com/CathalBurke/SOC-Verilog/main/docs/assets/images/MyprojectSummary.png">
 
 
+
 ### **Template Code**
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
 ### **Simulation**
 Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
+<img src="https://raw.githubusercontent.com/CathalBurke/SOC-Verilog/main/docs/assets/images/elaboratedschematic.png">
 ### **Synthesis**
 Describe the synthesis and implementation processes. Consider including 1/2 useful screenshot(s). Guideline: 1/2 short paragraphs.
 ### **Demonstration**
