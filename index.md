@@ -38,7 +38,7 @@ Describe the synthesis & implementation outputs for your design, are there any d
 ### **Demonstration**
 
 
-<img src="https://raw.githubusercontent.com/CathalBurke/SOC-Verilog/docs/assets/images/Belgium Flag.jpg">
+<img src="https://raw.githubusercontent.com/CathalBurke/SOC-Verilog/main/docs/assets/images/Belgium Flag.jpg">
 
 
 
