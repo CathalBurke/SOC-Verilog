@@ -17,7 +17,7 @@ Summarise the project set-up and design flow. Include a screenshot of your own s
 
 <img src="https://raw.githubusercontent.com/CathalBurke/SOC-Verilog/main/docs/assets/images/MyprojectSummary.png">
 
-<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSum.png">
+
 ### **Template Code**
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
 ### **Simulation**
@@ -36,7 +36,11 @@ Show how you simulated your own design. Are there any things to note? Demonstrat
 ### **Synthesis**
 Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
 ### **Demonstration**
-If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
+
+
+<img src="https://raw.githubusercontent.com/CathalBurke/SOC-Verilog\docs\assets\images\Belgium Flag.jpg">
+
+
 
 ## **More Markdown Basics**
 This is a paragraph. Add an empty line to start a new paragraph.
@@ -47,10 +51,6 @@ Code can be highlighted by using `backticks`.
 
 Hyperlinks look like this: [GitHub Help](https://help.github.com/).
 
-A bullet list can be rendered as follows:
-- vectors
-- algorithms
-- iterators
 
 Images can be added by uploading them to the repository in a /docs/assets/images folder, and then rendering using HTML via githubusercontent.com as shown in the example below.
 
