@@ -49,11 +49,10 @@ The XDC file:
 
 ## Understanding the Template Design
 
-Before drawing any flags I needed to understand the **template VGA driver**.
+Before drawing any flags I needed to understand the **template VGA driver** [1].
 
 ### VGA timing in plain English
-
-The monitor wants a stream of pixels at a fixed rate. For 640×480 @ 60 Hz:
+From the Manual [2] I learned that the Basys3 monitor  wants a stream of pixels at a fixed rate. For 640×480 @ 60 Hz:
 
 - A **25 MHz pixel clock** drives the timing.  
 - Every tick, the design moves one pixel to the right (col increments).  
@@ -166,7 +165,7 @@ For the edit part of the project, I replaced the colour-cycling demo with a stat
 2. Yellow  
 3. Red  
 
-The nice thing about VGA is that I already know the **column index** for every pixel from VGASync (col). So the idea is simple:
+The nice thing about VGA is that I already know the **column index** from my own  reasearch and the moodle slides for every pixel [3], from VGASync (col). So the idea is simple:
 
 - Split the visible width into three equal sections using col.  
 - Choose black, yellow or red depending on which section we are in.  
@@ -284,9 +283,9 @@ If I had more time, next steps would be:
 
 These are the main resources I used alongside the lab sheet:
 
-1. **FPGA VGA lab handout** – module notes describing the original template design and timing parameters.  
-2. **Basys3 Reference Manual** – to confirm clock frequency and VGA pin mappings.  
-3. **Module lecture slides** on VGA timing, counters and finite state machines.
-
+1.  M. Lynch, .**FPGA VGA lab template**   ATU Galway, 2025
+2. **Basys 3 Reference Manual** - Digilent Reference, digilent.com. https://digilent.com/reference/programmable-logic/basys-3/reference-manual?redirect=1
+‌
+3. M. Lynch,  **Module lecture slides**  ATU Galway, 2025.
 ---
 
